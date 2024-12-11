@@ -38,7 +38,7 @@ ul {
     padding-bottom: 5px;
 }
 
-.inner-list li {
+.inner-list p {
     font-weight: 100;
     padding: 3px 0;
 }
@@ -52,6 +52,7 @@ ul {
     display: inline-block;
     background-color: #ff8c00;
     color: #ffffff;
+    font-size: .7rem;
     font-weight: 600;
     padding: .5em 1.2em;
     margin-left: 10px;

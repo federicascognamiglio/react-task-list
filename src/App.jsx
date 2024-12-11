@@ -8,11 +8,12 @@ function App() {
   // Functions
   const printTasks = (tasksArray) => tasksArray.map(curTask =>
     <li className="task-list" key={curTask.id}>
-      <h3 className="title">{curTask.title}</h3><span className="state-tag">{curTask.state}</span>
-      <ul className="inner-list">
-        <li key="{curTask.id}.1">Priority: {curTask.priority}</li>
-        <li key="{curTask.id}.2">Est. time {curTask.estimatedTime}</li>
-      </ul>
+      <h3 className="title">{curTask.title}</h3>
+      <span className="state-tag">{curTask.state}</span>
+      <div className="inner-list">
+        <p>Priority: {curTask.priority}</p>
+        <p>Est. time {curTask.estimatedTime}</p>
+      </div>
     </li>)
 
   // Output
