@@ -57,3 +57,16 @@ ul {
     padding: .5em 1.2em;
     margin-left: 10px;
 }
+
+/* Tag Colors */
+.state-tag[mytagtype="red"] {
+    background-color: #ce0000;
+}
+
+.state-tag[mytagtype="yellow"] {
+    background-color: #ffc919;
+}
+
+.state-tag[mytagtype="green"] {
+    background-color: #1f9b09;
+}
